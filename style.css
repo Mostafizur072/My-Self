@@ -1,0 +1,412 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+   
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: black;
+}
+    
+ .container{
+    margin:0 8%;
+    padding: 0;
+   
+   
+ 
+
+ } 
+
+
+
+.top-navbar{
+    display: inline-flex;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    font-family: "Courgette", cursive;
+    line-height: 1.8;
+    background-color: #fdef9f;
+
+}
+.tn1{
+    width: 10%;
+    text-align: center;
+    color: rgb(253, 4, 4);
+}
+.tn1 span{
+    color: rgb(18, 2, 251);
+}
+.tn2{
+    width: 90%;
+    text-align: center;
+    margin: auto;
+}
+
+
+
+    
+
+.top-manubar{
+width: 100%;  
+display: inline-flex;
+background-color: black;
+color: #ffffff;
+font-family: "Exo 2", sans-serif;
+font-optical-sizing: auto;
+font-weight: 300;
+font-style: normal;
+position: sticky;
+    top: 0;
+    left: 0;
+    padding: 6px 0px;
+}
+
+.had{
+    width: 20%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.5;
+}
+.manu-item{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.top-manubar h2 {
+ width: 100%;
+ height: 100%;
+ margin: 2px auto;
+ font-size: 28px;
+ 
+}
+.top-manubar ul{
+    padding: 0px 0px 0px 0px;
+}
+
+.top-manubar ul li {
+   width: 10%;
+    list-style-type: none;
+    display: inline-block;
+   padding: 7px;
+   font-size: 20px;
+}
+.top-manubar ul li a{
+    text-decoration: none;
+    color: #fffbfb;
+    transition: 0.2s;
+    padding: 5px;
+    border-bottom: 3px solid #000000;
+
+}
+.top-manubar ul li a:hover{
+    border-color: #febd38;
+
+    
+}
+
+.active {
+    width: 100%;
+    border-bottom: 3px solid #febd38 !important;
+    padding: 5px;
+    color:#febd38 !important;
+}
+.b1{
+    width: 100%;
+    height:94vh;
+    display:inline-flex;
+    justify-content: space-evenly;
+    
+    
+    background: #000;
+    
+
+}
+.bb1{
+    width: 50%;
+   
+}
+.bb1 img{
+    width: 80%;
+    height: 94vh;
+    margin: 0 auto;
+    
+  
+}
+.bb2{
+    width:50%;
+    text-align:left;
+    margin: auto;
+    color: #fffbfb;
+}
+span {
+    color: #febd38;
+}
+.bb2 h6{
+    font-size: 20px;
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+}
+.bb2 h1{
+ font-size:50px;
+ font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+.bb2 h4{
+ font-size: 30px;
+ font-family: "Exo 2", sans-serif;
+ font-optical-sizing: auto;
+ font-weight: 600;
+ font-style: normal;
+ margin-top: 17px;
+}
+.bu button{
+    padding: 15px 20px;
+    border-radius: 60px;
+}
+.bu{
+   margin-top: 50px;
+   
+}
+.bu1{
+    background-color: #febd38;
+    border: 1px solid #febd38;
+    padding: 15px 29px !important;
+    margin-right: 10px;
+    transition: 0.3s;
+    
+}
+
+.bu2{
+    background-color: transparent;
+    color: #fffbfb;
+    border: 1px solid rgba(149, 149, 149, 0.786);
+    transition: 0.3s;
+}
+.bu1:hover{
+    background-color:transparent;
+    color: white;
+    
+}
+.bu2:hover{
+    border-color: #febd38;
+}
+
+.About{
+    width: 100%;
+    height:100vh;
+    display:inline-flex;
+    justify-content:space-between;
+    background: #000000
+}
+
+.img-2{
+width: 40%;
+text-align: center;
+margin: auto;
+
+
+}
+.img-3{
+    width: 80%;
+    height: 464px;
+    border: 10px solid #febd38;
+    border-radius: 50px;
+    margin: auto;
+    padding: 2px;
+}
+.img-3 img{
+    width: 100%;
+    border-radius: 40px;
+    margin: auto;  
+}
+
+.About-1{
+    color: #ffffff;
+}
+
+.mb-4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 50px;
+}
+.About-1 p{
+    color: #bbb5b5dc;
+    font-size: 20px;
+    padding:  30px 0;
+}
+.About-1{
+    width: 50%;
+    margin: auto;
+}
+
+.About-1 ul{
+    padding: 0px 0px 0px 0px;
+}
+.About-1 ul li{
+    list-style-type: none;
+    text-align: left;
+    margin: auto;
+}
+
+.About-3{
+    padding: 6px 0;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.About-3 span{
+    width: 50%;
+    display:flex;
+    color:#bbb5b5dc;
+
+}
+.but{
+padding: 10px;
+}
+
+.but h3{
+font-size: 25px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+padding-bottom: 15px;
+}
+.but-1{
+    background-color: #febd38;
+    border: 1px solid #febd38;
+    padding: 15px 29px !important;
+    
+    transition: 0.3s;
+    border-radius: 20px;
+  
+}
+.but-1:hover{
+    background-color:transparent;
+    color: white;
+}
+#Resume{
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    margin: auto;
+   
+}
+
+.tittle h1{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    
+}
+
+.Resume-12{
+width: 50%;
+
+}
+.Resume-1{
+    width: 95%;
+    height: 35%;
+    color: white;
+    margin: auto;
+    border: 1px solid #febd38;
+    margin-bottom: 3px;
+    padding: 40px;
+    background: rgb(27,26,27);
+    border-radius: 10px;
+    transition: all 0.3s;
+    
+   
+    
+}
+.Resume-34{
+    width: 50%;
+}
+.Resume-1 h1{
+    font-size: 26px;
+    font-family: arial;
+    font-weight: 900;
+    color: #febd38;
+}
+
+.Resume-1 h2{
+    font-size: 26px;
+    font-family: arial;
+    font-weight: 500;
+     color: white;
+     margin:12px 0; 
+}
+.Resume-1 h6{
+    font-weight: 400;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 4px;
+    margin-bottom: 25px;
+}
+
+.Resume-1 p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #7a7a7adc;
+    
+}
+.Resume-1:hover{
+    transform: scale(1.03);
+}
+.im{
+    width: 100%;
+    height: 90vh;
+    background: #ebebeb url(jpg/bg1.jpg) no-repeat center center / cover scroll;
+
+    
+}
+.my-self{
+    color: white;
+    text-align: center;
+    padding-top: 14%;
+}
+.my-self h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.my-self p{
+    width: 500px;
+    margin: auto;
+    font-weight: 400;
+    color: #a39d9dcc;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 50px;
+    
+}
+.my-self button{
+    font-weight: 500;
+    
+}
+.my-self button:hover{
+    background-color: #f7a708;
+}
+footer{
+    margin-top: 50px;
+    background: black;
+    padding: 20px;
+    color: #febd38;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-top: 1px solid #43424275;
+}
